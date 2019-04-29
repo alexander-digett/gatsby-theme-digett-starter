@@ -12,6 +12,6 @@
   "dependencies": {
     "gatsby": "^2.3.33",
     "gatsby-plugin-page-creator": "^2.0.12",
-    "gatsby-theme-digett": "^1.1.4"
+    "gatsby-theme-digett": "^1.1.7"
   }
 }

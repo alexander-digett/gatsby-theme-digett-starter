@@ -1,7 +1,7 @@
 const path = require("path")
 
 module.exports = {
-  __experimentalThemes: ["gatsby-theme-digett"],
+  __experimentalThemes: ["gatsby-theme-digett", "gatsby-theme-digett-landing"],
     siteMetadata: {
     title: `Gatsby Theme Digett Demo`,
     description: `Digett's Gatsby theme starter including all sub themes.`,
@@ -30,5 +30,6 @@ module.exports = {
         path: path.join(__dirname, "src", "pages"),
       },
     },
+    `gatsby-plugin-netlify-cms`,
   ],
 }
